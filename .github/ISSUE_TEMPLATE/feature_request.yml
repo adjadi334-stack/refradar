@@ -1,0 +1,19 @@
+name: Feature request
+description: Suggest a new reference type, registry, output format or UX improvement
+title: "[feature] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What are you trying to do that RefRadar doesn't let you do today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Rough idea is fine. If it's a new identifier type, name its authoritative registry.
+    validations:
+      required: true

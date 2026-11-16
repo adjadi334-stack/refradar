@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "refradar"
+version = "1.0.0"
+description = "The anti-hallucination checker for AI-generated references: finds URLs, DOIs, arXiv IDs, PubMed IDs and ISBNs in any text, verifies they exist, and flags the ones that don't."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "RefRadar contributors" }]
+keywords = ["ai", "llm", "hallucination", "citations", "references", "fact-check", "doi", "arxiv", "open-source"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Education",
+    "Intended Audience :: Journalism",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Utilities",
+    "Topic :: Text Processing :: General",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/adjadi334/refradar"
+Issues = "https://github.com/adjadi334/refradar/issues"
+
+[project.scripts]
+refradar = "refradar.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+refradar = ["py.typed"]

@@ -1,0 +1,26 @@
+name: Bug report
+description: A reference was misjudged, or the tool crashed/errored
+title: "[bug] "
+labels: [bug]
+body:
+  - type: textarea
+    id: input
+    attributes:
+      label: Text scanned (minimal reproducer)
+      description: Paste the smallest text that reproduces the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected verdict vs actual verdict
+      placeholder: "Expected: verified — Actual: mismatch"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: RefRadar version
+      placeholder: "refradar --version"
+    validations:
+      required: true
