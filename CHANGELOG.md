@@ -30,5 +30,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - URL checking confirms a page responded, not that it is what the AI said it was — prefer DOIs/PMIDs.
 - Title matching is heuristic (language, subtitles, transliteration can differ).
 
-[Unreleased]: https://github.com/adjadi334/refradar/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/adjadi334/refradar/releases/tag/v1.0.0
+[Unreleased]: https://github.com/adjadi334-stack/refradar/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/adjadi334-stack/refradar/releases/tag/v1.0.0

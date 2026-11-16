@@ -72,7 +72,7 @@ Trust score: 43/100 — Mixed — review the flagged references
 Python ≥ 3.9 requis. Zéro dépendance d'exécution.
 
 ```bash
-git clone https://github.com/adjadi334/refradar.git   # ou dézippe l'archive
+git clone https://github.com/adjadi334-stack/refradar.git   # ou dézippe l'archive
 cd refradar
 pip install .            # installe la commande `refradar`
 ```
@@ -156,7 +156,7 @@ cd refradar
 git init && git add . && git commit -m "RefRadar 1.0.0"
 gh repo create refradar --public --source=. --push   # GitHub CLI
 # …ou crée un dépôt vide sur github.com, puis :
-git remote add origin git@github.com:adjadi334/refradar.git
+git remote add origin git@github.com:adjadi334-stack/refradar.git
 git branch -M main && git push -u origin main
 ```
 
