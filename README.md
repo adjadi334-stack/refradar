@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-2ea44f.svg" alt="License: MIT"></a>
-  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-%E2%89%A5%203.9-3776ab.svg" alt="Python ≥ 3.9"></a>
+  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-%E2%89%A5%203.10-3776ab.svg" alt="Python ≥ 3.10"></a>
   <img src="https://img.shields.io/badge/dependencies-zero-brightgreen.svg" alt="Zero dependencies">
   <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version 1.0.0">
 </p>
@@ -82,7 +82,7 @@ Trust score: 43/100 — Mixed — review the flagged references
 
 ## Install
 
-Requires Python ≥ 3.9. Zero runtime dependencies.
+Requires Python ≥ 3.10. Zero runtime dependencies.
 
 ```bash
 git clone https://github.com/adjadi334-stack/refradar.git   # or unzip the archive

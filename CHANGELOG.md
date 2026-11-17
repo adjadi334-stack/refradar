@@ -18,7 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **CLI interface**: Command-line tool `refradar check` with support for files, stdin, `--text`, `--json`, `--html`, `--no-net`, and `--fail-under` for CI gating.
 - **Web app**: Local browser-based telemetry cockpit (`refradar web`) with real-time NDJSON streaming, interactive radar chart, live Trust Score gauge, and expandable evidence drawers.
 - **Offline ISBN validation**: ISBN-10/13 checksum verification works entirely without network access.
-- **CI/CD integration**: GitHub Actions workflow running smoke tests on Python 3.9 through 3.13; `--fail-under` exit code for pipeline gates.
+- **CI/CD integration**: GitHub Actions workflow running smoke tests on Python 3.10 through 3.13; `--fail-under` exit code for pipeline gates.
 - **Zero dependencies**: Built entirely with Python standard library — no external packages required.
 - **Documentation**: Bilingual README (English/French), CONTRIBUTING guide, bug report and feature request templates, PR template with checklist.
 - **Demo**: Example file with real and fake references to demonstrate the tool out of the box.

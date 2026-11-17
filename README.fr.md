@@ -69,7 +69,7 @@ Trust score: 43/100 — Mixed — review the flagged references
 
 ## Installation
 
-Python ≥ 3.9 requis. Zéro dépendance d'exécution.
+Python ≥ 3.10 requis. Zéro dépendance d'exécution.
 
 ```bash
 git clone https://github.com/adjadi334-stack/refradar.git   # ou dézippe l'archive
